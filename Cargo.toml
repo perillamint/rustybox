@@ -3,3 +3,20 @@ name = "rustybox"
 version = "0.0.1"
 authors = ["perillamint <perillamint@gmail.com>"]
 
+[[bin]]
+name = "rustybox"
+path = "src/main.rs"
+
+[dependencies]
+rustc-serialize = "0.3.13"
+mime = "0.0.10"
+iron = "0.1.18"
+router = "0.0.10"
+#liquid = "*"
+chrono = "0.2.14"
+url = "0.2.31"
+log = "0.3.1"
+toml = "0.1.20"
+
+[dependencies.liquid]
+git = "https://github.com/cobalt-org/liquid-rust.git"
