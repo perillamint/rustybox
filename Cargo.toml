@@ -17,6 +17,8 @@ chrono = "0.2.25"
 url = "1.2.4"
 log = "0.3.6"
 toml = "0.2.1"
+persistent = "0.3.0"
+postgres = "0.13.5"
 
 [dependencies.liquid]
 git = "https://github.com/cobalt-org/liquid-rust.git"
